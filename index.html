@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私だけの幅狭パンプスに出会う | レディースキッド</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                        serif: ['"Noto Serif JP"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            DEFAULT: '#7a1b29', // 深みのある上品なボルドー
+                            hover: '#5c141f',
+                            light: '#fdfaf9', // ほんのり温かみのあるオフホワイト
+                        },
+                        base: {
+                            DEFAULT: '#faf9f8', // ベースの背景色（淡いグレージュ系）
+                            dark: '#f3f1ee', // セクションの区切り用
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* スムーズスクロール */
+        html { scroll-behavior: smooth; }
+        /* 画像プレースホルダー用のスタイル */
+        .img-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #eae7e4;
+            color: #9ca3af;
+            font-size: 0.875rem;
+            text-align: center;
+            padding: 1rem;
+            font-family: serif;
+            letter-spacing: 0.1em;
+        }
+        /* テキストの選択色を上品に */
+        ::selection {
+            background-color: #ebd7da;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-base leading-loose tracking-wider">
+
+    <!-- Header -->
+    <header class="fixed w-full bg-white/95 border-b border-gray-100 z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="font-serif text-2xl tracking-widest text-brand">Ladies Kid</div>
+            <a href="https://ladieskid.jp/reserve_main" class="border border-brand text-brand px-6 py-2 text-sm tracking-widest hover:bg-brand hover:text-white transition duration-500">
+                ご来店予約
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. ファーストビュー (Hero) -->
+    <section class="pt-32 pb-16 md:pt-40 md:pb-24 bg-brand-light">
+        <div class="max-w-4xl mx-auto px-6 text-center mb-16 md:mb-20">
+            <p class="text-brand tracking-[0.2em] mb-6 text-sm font-medium">何足買っても合わない「パンプス難民」のあなたへ</p>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-serif font-medium leading-relaxed text-gray-900 lg:leading-relaxed tracking-widest">
+                「痛い」「脱げる」を我慢して<br>
+                絆創膏だらけの足で歩き続けるのは<br class="hidden md:block">
+                もう終わりにしませんか
+            </h1>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+            <!-- 画像を左側に配置 -->
+            <div class="w-full md:w-1/2">
+                <div class="w-full aspect-[4/3] img-placeholder">
+                    
+                </div>
+            </div>
+            <!-- テキストエリアを右側に配置 -->
+            <div class="w-full md:w-1/2 text-center md:text-left space-y-8">
+                <h2 class="font-serif text-2xl md:text-3xl font-medium leading-loose text-gray-900 tracking-wider">
+                    痛いのは あなたのせいではありません<br>
+                    <span class="text-brand block mt-2">日本の靴が あなたの足よりも<br class="hidden xl:block">“広すぎる”からでした</span>
+                </h2>
+                <p class="text-lg md:text-xl text-gray-600 font-serif">
+                    あなたの足は 実は「細幅（幅狭）」かもしれません
+                </p>
+                <p class="text-sm md:text-base text-gray-500 leading-relaxed tracking-widest">
+                    本当に足に合う「細靴」に出会う感動を<br>
+                    シューフィッターが導く<br>
+                    痛くない 疲れない 私だけのパンプス
+                </p>
+                <div class="pt-6">
+                    <a href="https://ladieskid.jp/reserve_main" class="inline-block bg-brand text-white text-lg tracking-widest px-10 py-5 hover:bg-brand-hover transition duration-500 w-full md:w-auto shadow-sm">
+                        プロのフィッティングを体験する<br>
+                        <span class="text-xs font-normal opacity-80 mt-1 block">（ご来店予約はこちら）</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. コラム & 憧れと現実のギャップ -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <!-- コラム部分 -->
+            <div class="mb-20 md:mb-32">
+                <div class="text-center mb-10">
+                    <span class="text-gray-400 tracking-[0.3em] text-xs font-sans">COLUMN</span>
+                    <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 mt-4 leading-loose tracking-widest">
+                        パンプスは 女性をきれいに魅せる<br class="md:hidden">「魔法の靴」
+                    </h2>
+                </div>
+                <div class="bg-brand-light p-10 md:p-14 relative border border-gray-100">
+                    <p class="text-gray-700 leading-loose mb-8 relative z-10 text-center md:text-left">
+                        パンプスとは 本来 甲部分が大きく開いていて ヒールがある靴のこと<br>
+                        足の甲を見せることで 脚を長くスッキリと見せ 立ち姿を圧倒的に美しく魅せてくれるアイテムです
+                    </p>
+                    <p class="text-gray-700 leading-loose relative z-10 text-center md:text-left">
+                        背筋がピンと伸び 歩き方までエレガントになる<br>
+                        ビジネスの大切な場面でも 休日の特別なお出かけでも パンプスは履く人の自信を引き出し 女性としての魅力を最大限に高めてくれる まさに「魔法の靴」なのです
+                    </p>
+                </div>
+            </div>
+
+            <!-- フィットしない事例 -->
+            <div class="text-center mb-12">
+                <h3 class="text-xl md:text-2xl font-serif font-medium text-gray-900 leading-loose tracking-widest">
+                    本当は美しく履きこなしたいのに…<br>
+                    こんな悔しい経験はありませんか
+                </h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- 事例1 -->
+                <div class="bg-base p-8 border border-gray-200 hover:border-brand/30 transition duration-300">
+                    <h4 class="font-serif text-lg mb-4 text-brand tracking-widest">01. 一目惚れした靴が凶器に</h4>
+                    <p class="text-gray-600 text-sm leading-loose">
+                        ショーウィンドウで見て「可愛い！」と一目惚れ 足を入れた瞬間は良くても いざ歩き出すと指先が激痛 結局 下駄箱の肥やしになっている美しいパンプスが何足もある
+                    </p>
+                </div>
+                <!-- 事例2 -->
+                <div class="bg-base p-8 border border-gray-200 hover:border-brand/30 transition duration-300">
+                    <h4 class="font-serif text-lg mb-4 text-brand tracking-widest">02. 大切な日に笑顔が引きつる</h4>
+                    <p class="text-gray-600 text-sm leading-loose">
+                        大事なプレゼンや結婚式 気合を入れてパンプスを履いたのに 足の痛みが気になって集中できない 写真を見返すと 足元の痛みをこらえた引きつり笑顔になっている
+                    </p>
+                </div>
+                <!-- 事例3 -->
+                <div class="bg-base p-8 border border-gray-200 hover:border-brand/30 transition duration-300">
+                    <h4 class="font-serif text-lg mb-4 text-brand tracking-widest">03. パンプスの日は行動範囲が狭く</h4>
+                    <p class="text-gray-600 text-sm leading-loose">
+                        スニーカーならどこまでも歩けるのに パンプスだと最寄り駅までが限界 「今日は歩くから」と 結局いつも同じようなスニーカーやフラットシューズばかり選んでしまう
+                    </p>
+                </div>
+                <!-- 事例4 -->
+                <div class="bg-base p-8 border border-gray-200 hover:border-brand/30 transition duration-300">
+                    <h4 class="font-serif text-lg mb-4 text-brand tracking-widest">04. 夕方 脱いだときの絶望感</h4>
+                    <p class="text-gray-600 text-sm leading-loose">
+                        仕事終わり 足はパンパンにむくみ パンプスを脱いだときの解放感と同時に 赤く腫れたり 変形しつつある自分の足先を見て「このままでいいのかな」とため息が漏れる
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. 共感・課題提起 (症状の確認) -->
+    <section class="py-20 md:py-32 bg-base-dark">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-serif font-medium text-center mb-12 text-gray-900 leading-loose tracking-widest">
+                我慢して履き続けていると<br class="md:hidden">こんな辛い症状が出ていませんか
+            </h2>
+            <div class="bg-white p-8 md:p-14 border border-gray-200 shadow-sm">
+                <ul class="space-y-6 text-base md:text-lg text-gray-700">
+                    <li class="flex items-start">
+                        <span class="text-brand mr-4 font-serif">・</span>
+                        <span class="tracking-widest">歩くたびにかかとが<strong>パカパカと脱げる</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-brand mr-4 font-serif">・</span>
+                        <span class="tracking-widest">足が前に滑って <strong>つま先が詰まって痛い</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-brand mr-4 font-serif">・</span>
+                        <span class="tracking-widest">靴擦れやマメが絶えず <strong>絆創膏が手放せない</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-brand mr-4 font-serif">・</span>
+                        <span class="tracking-widest leading-loose">「足幅が広いから痛いんだ」と思い込み<br class="md:hidden">さらに<strong>幅広の靴や大きいサイズを選んでいる</strong></span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-brand mr-4 font-serif">・</span>
+                        <span class="tracking-widest">外反母趾の兆候があり <strong>将来の足の健康が不安だ</strong></span>
+                    </li>
+                </ul>
+            </div>
+            <p class="text-center mt-12 text-lg font-serif text-brand tracking-widest leading-loose">
+                これらはすべて「靴の幅（ワイズ）」が<br class="md:hidden">あなたの足に合っていないサインです
+            </p>
+        </div>
+    </section>
+
+    <!-- 4. 原因の啓蒙 -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12 md:gap-20">
+            <div class="w-full md:w-1/2 order-2 md:order-1">
+                <div class="w-full aspect-[3/4] img-placeholder border border-gray-100">
+                    
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 order-1 md:order-2 space-y-8">
+                <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 leading-loose tracking-widest">
+                    なぜ 合う靴が見つからないの？<br>
+                    それは<span class="text-brand block mt-2">「日本人は幅広甲高」という<br class="hidden md:block">古い誤解のせいでした</span>
+                </h2>
+                <p class="text-gray-600 leading-loose tracking-wider">
+                    市場で売られている多くの靴は 実際の現代女性の足よりもかなり「幅広」に作られています<br>
+                    「幅を広くしておけば 足が入らないというクレームは起きない」という製造側の都合が 合わない靴を量産し続けているのです
+                </p>
+                <p class="text-gray-600 leading-loose tracking-wider">
+                    本来は「幅が狭い（細い）」足なのに それに気づかず 痛みを避けるためにさらにゆったりとした靴を選んでしまう<br>
+                    <strong class="font-medium text-gray-900 mt-4 block">これが 前滑りを起こし 足の変形や外反母趾などのトラブルを引き起こす悪循環の正体です</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. 競合差別化 -->
+    <section class="py-20 md:py-24 bg-gray-900 text-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-10">
+            <h2 class="text-2xl md:text-3xl font-serif font-medium leading-loose tracking-widest">
+                「細い靴なら何でもいい」は<br class="md:hidden">もっと危険です
+            </h2>
+            <div class="bg-gray-800 p-8 md:p-12 text-left space-y-6 border border-gray-700">
+                <p class="leading-loose tracking-wider font-light">
+                    最近では「幅狭靴」をうたうブランドも少しずつ増えてきました しかし 注意が必要です<br>
+                    <span class="font-medium text-white">「ただ幅を細く作っただけ」</span>で 靴としての機能や骨格を支える設計が伴っていない靴が少なくないからです
+                </p>
+                <p class="leading-loose tracking-wider font-light">
+                    また 知識のない販売員が 足の構造を無視して「とにかく細い靴」を無理やり勧めることで かえって足を痛めてしまうケースも後を絶ちません
+                </p>
+                <div class="pt-8 border-t border-gray-700 mt-8 text-center">
+                    <p class="text-lg md:text-xl font-serif text-brand-light leading-loose tracking-widest">
+                        本当に大切なのは「ただ細いこと」ではなく<br>
+                        <span class="text-white mt-2 block">「正しく設計された細靴を 正しくフィッティングすること」</span>なのです
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. なぜできるのか？ -->
+    <section class="py-20 md:py-32 bg-base">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12 md:gap-20">
+            <div class="w-full md:w-1/2 space-y-8">
+                <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 leading-loose tracking-widest">
+                    なぜ レディースキッドには<br>
+                    「本当に合う細靴」が提供できるのか
+                </h2>
+                <p class="text-gray-800 leading-loose font-medium tracking-widest">
+                    私たちは 単なる「靴の販売店」ではありません
+                </p>
+                <div class="space-y-8 text-gray-600 leading-loose text-sm md:text-base tracking-wider">
+                    <div>
+                        <h4 class="text-brand font-serif mb-2 tracking-widest">足と靴の専門家としての膨大な実績</h4>
+                        <p class="font-light">長年にわたり シューフィッターがお客様の足を直接計測し 悩みに耳を傾け続けてきました 現場で蓄積されたリアルな足のデータが 私たちの靴作りの基盤です</p>
+                    </div>
+                    <div>
+                        <h4 class="text-brand font-serif mb-2 tracking-widest">ゼロから「木型」を自社開発する本気度</h4>
+                        <p class="font-light">市場に合う靴がないのなら 自分たちで作るしかない 既存の靴型に頼らず 日本女性の細幅足の骨格を正しく支える独自の「木型」を 専門的な知見から開発しています</p>
+                    </div>
+                    <div>
+                        <h4 class="text-brand font-serif mb-2 tracking-widest">ミリ単位の要望に応える熟練工場との絆</h4>
+                        <p class="font-light">どんなに良い設計も 形にする技術がなければ意味がありません 私たちの妥協なき靴作りに共感し 難しい要求にも応えてくれる優れた工場と直接提携しているからこそ 実現できるのです</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="w-full aspect-square img-placeholder border border-gray-200 bg-white">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. 自社の強み -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 leading-loose tracking-widest">
+                    レディースキッドが<br class="md:hidden">あなたの足と健康を<br class="hidden md:block">本気で守れる3つの理由
+                </h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Point 1 -->
+                <div class="p-8 border border-gray-100 hover:border-gray-300 transition duration-500 bg-base text-center">
+                    <span class="block font-serif text-brand text-4xl mb-6 opacity-30">01</span>
+                    <h3 class="text-lg font-serif font-medium mb-6 leading-loose tracking-widest">妥協のない<br>「本物の細幅設計」</h3>
+                    <p class="text-gray-500 text-left text-sm leading-loose font-light">
+                        市場のズレを熟知しているからこそ 独自の木型から本当に足にフィットする設計を追求 ただ細いだけでなく 体重をしっかり支え 正しく歩ける「靴としての高い機能」を備えた幅狭パンプスを豊富に展開しています
+                    </p>
+                </div>
+                <!-- Point 2 -->
+                <div class="p-8 border border-gray-100 hover:border-gray-300 transition duration-500 bg-base text-center">
+                    <span class="block font-serif text-brand text-4xl mb-6 opacity-30">02</span>
+                    <h3 class="text-lg font-serif font-medium mb-6 leading-loose tracking-widest">長さ×幅を合わせる<br>圧倒的なサイズ展開</h3>
+                    <p class="text-gray-500 text-left text-sm leading-loose font-light">
+                        足の「長さ」だけでは靴は合いません 当店では 豊富なサイズ（長さ）とワイズ（幅）の掛け合わせから あなたの足のボリュームにピタリと寄り添う一足をご提案します
+                    </p>
+                </div>
+                <!-- Point 3 -->
+                <div class="p-8 border border-gray-100 hover:border-gray-300 transition duration-500 bg-base text-center">
+                    <span class="block font-serif text-brand text-4xl mb-6 opacity-30">03</span>
+                    <h3 class="text-lg font-serif font-medium mb-6 leading-loose tracking-widest">プロフェッショナルによる<br>的確なフィッティング</h3>
+                    <p class="text-gray-500 text-left text-sm leading-loose font-light">
+                        足は一人ひとり 左右でも異なります 熟練のスタッフが 足の計測から歩き方のクセまでを丁寧に見極め 靴を提案 必要であれば微調整を行い「あなただけの一足」に仕上げます
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. 未来のベネフィット -->
+    <section class="py-20 md:py-32 bg-brand-light relative">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12 md:gap-20">
+            <div class="w-full md:w-1/2 space-y-8">
+                <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 leading-loose tracking-widest">
+                    靴が変われば 歩き方が変わる<br>
+                    歩き方が変われば<br class="hidden md:block">未来の身体が変わる
+                </h2>
+                <p class="text-gray-600 leading-loose tracking-wider font-light">
+                    足にピタリと合うパンプスは まるで足の一部のように軽く感じられます<br>
+                    痛みを気にせず美しく歩けることは 外反母趾などの足のトラブルを防ぐだけでなく 姿勢の改善や 全身の健康（未病）にも直結します
+                </p>
+                <p class="text-brand font-serif tracking-widest leading-loose">
+                    レディースキッドは 靴を通じてあなたの生涯の健康を足元からサポートします
+                </p>
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="w-full aspect-[4/3] img-placeholder border border-gray-200">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. お客様の声 -->
+    <section class="py-20 md:py-32 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 tracking-widest">
+                    喜びの声をいただいています
+                </h2>
+            </div>
+            <div class="space-y-10">
+                <!-- Voice 1 -->
+                <div class="border-l-2 border-brand pl-6 md:pl-10 py-2">
+                    <p class="font-serif text-lg mb-4 text-gray-900 tracking-widest leading-loose">「今までどの靴も脱げていたのに 走れるパンプスに初めて出会えました」</p>
+                    <p class="text-gray-500 text-sm leading-loose font-light">今までかかとがパカパカするのは自分の歩き方のせいだと思っていました ここで足の幅が狭いことを教えてもらい ピッタリの靴を履いた時の感動は忘れられません（30代女性）</p>
+                </div>
+                <!-- Voice 2 -->
+                <div class="border-l-2 border-brand pl-6 md:pl-10 py-2">
+                    <p class="font-serif text-lg mb-4 text-gray-900 tracking-widest leading-loose">「幅広だと思っていたら まさかの細幅 プロに見てもらって本当に良かった」</p>
+                    <p class="text-gray-500 text-sm leading-loose font-light">いつも指先が痛くなるので 幅広の靴ばかり選んでいました それが前滑りの原因だったなんて驚きです しっかりフィッティングしてもらい 今では快適に通勤できています（40代女性）</p>
+                </div>
+                <!-- Voice 3 -->
+                <div class="border-l-2 border-brand pl-6 md:pl-10 py-2">
+                    <p class="font-serif text-lg mb-4 text-gray-900 tracking-widest leading-loose">「立ち仕事で夕方には足がパンパンに… 靴を変えてから疲れにくくなりました」</p>
+                    <p class="text-gray-500 text-sm leading-loose font-light">外反母趾になりかけていて不安でしたが 足が靴の中でしっかりホールドされる感覚を初めて知りました 1日中立っていても疲れの度合いが全く違います（20代女性）</p>
+                </div>
+                <!-- Voice 4 -->
+                <div class="border-l-2 border-brand pl-6 md:pl-10 py-2">
+                    <p class="font-serif text-lg mb-4 text-gray-900 tracking-widest leading-loose">「もう一生スニーカーしか履けないと諦めていました」</p>
+                    <p class="text-gray-500 text-sm leading-loose font-light">どこの靴屋に行っても合うパンプスがなく ずっとスニーカーで過ごしていました こちらの細靴は痛みゼロ 久しぶりにお洒落をしてお出かけするのが楽しくなりました（50代女性）</p>
+                </div>
+                <!-- Voice 5 -->
+                <div class="border-l-2 border-brand pl-6 md:pl-10 py-2">
+                    <p class="font-serif text-lg mb-4 text-gray-900 tracking-widest leading-loose">「ネットで買った幅狭靴は失敗続き やはりプロのフィッティングが必須ですね」</p>
+                    <p class="text-gray-500 text-sm leading-loose font-light">他ブランドでただ細いだけの靴を買って痛い思いをしたことがあります レディースキッドさんで細かく調整してもらって 同じ細靴でも全く別物になりました（30代女性）</p>
+                </div>
+                <!-- Voice 6 -->
+                <div class="border-l-2 border-brand pl-6 md:pl-10 py-2">
+                    <p class="font-serif text-lg mb-4 text-gray-900 tracking-widest leading-loose">「足に良い靴ってデザインがイマイチ… という偏見が覆りました」</p>
+                    <p class="text-gray-500 text-sm leading-loose font-light">履き心地が良いだけでなく 足元がスッキリ美しく見えるデザインも豊富で嬉しいです お仕事用からプライベート用まで 何足もリピートしています（40代女性）</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. ご来店の流れ -->
+    <section class="py-20 md:py-32 bg-base-dark">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-16 md:mb-24">
+                <h2 class="text-2xl md:text-3xl font-serif font-medium text-gray-900 leading-loose tracking-widest">
+                    最高の1足と出会うための<br class="md:hidden">フィッティング体験
+                </h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Step 1 -->
+                <div class="bg-white p-8 border border-gray-200 text-center relative">
+                    <span class="block font-serif text-brand text-2xl mb-4">Step 1</span>
+                    <h3 class="font-medium mb-4 tracking-widest">ご予約</h3>
+                    <p class="text-xs text-gray-500 leading-loose font-light">まずはWEBからご来店予約をお願いします</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-white p-8 border border-gray-200 text-center relative">
+                    <span class="block font-serif text-brand text-2xl mb-4">Step 2</span>
+                    <h3 class="font-medium mb-4 tracking-widest">カウンセリング<br>計測</h3>
+                    <p class="text-xs text-gray-500 leading-loose font-light">足のお悩みをお伺いし 正確にサイズ ワイズを計測します</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-white p-8 border border-gray-200 text-center relative">
+                    <span class="block font-serif text-brand text-2xl mb-4">Step 3</span>
+                    <h3 class="font-medium mb-4 tracking-widest">ご提案・試着</h3>
+                    <p class="text-xs text-gray-500 leading-loose font-light">豊富なラインナップから最適な幅狭パンプスをご提案します</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="bg-white p-8 border border-gray-200 text-center relative">
+                    <span class="block font-serif text-brand text-2xl mb-4">Step 4</span>
+                    <h3 class="font-medium mb-4 tracking-widest">フィッティング</h3>
+                    <p class="text-xs text-gray-500 leading-loose font-light">実際に歩いていただき 必要に応じてプロが微調整を行います</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. クロージング (CTA) -->
+    <section id="reservation" class="py-24 md:py-40 bg-brand text-white text-center px-6">
+        <div class="max-w-3xl mx-auto space-y-10">
+            <h2 class="text-2xl md:text-4xl font-serif font-medium leading-loose tracking-widest">
+                もう 靴選びで泣かないでください<br>
+                あなたの足に本当に合う靴は ここにあります
+            </h2>
+            <p class="text-base md:text-lg text-brand-light leading-loose tracking-widest font-light">
+                ご相談だけでも大歓迎です<br>
+                まずはあなたの本当の足のサイズを知ることから始めませんか
+            </p>
+            <div class="pt-8">
+                <a href="https://ladieskid.jp/reserve_main" class="inline-block bg-white text-brand tracking-widest text-lg md:text-xl px-12 py-6 hover:bg-gray-50 transition duration-500 w-full md:w-auto shadow-sm">
+                    店舗での計測・フィッティングを予約する
+                </a>
+            </div>
+            <p class="text-xs text-brand-light/70 tracking-widest">※予約フォーム画面へ移動します</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-gray-400 py-10 border-t border-gray-100 text-center text-xs tracking-widest">
+        <p>&copy; Ladies Kid All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
